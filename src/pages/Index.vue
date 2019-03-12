@@ -17,7 +17,7 @@ export default {
 
   methods: {
     returnArray () {
-      debugger
+      // debuger
       console.log('in returnArray')
       return Array(5).fill().map((x, i) => i)
     }
